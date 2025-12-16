@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        header h1{text-align: center;columns: pink;}
+        header nav a{text-decoration: none; color: #555;}
+        header nav a:first-child{color:green}
+        header nav a + a{padding-left:20px}
+        section div + a{padding: 10px 0 20px;display: block;}
+        .t1, .t2{display:flex;}
+        .t1 .img{width: 50%;display:flex;flex-wrap: wrap;gap: 3%;}
+        .t1 .img img{width: 22%;}
+        .t1 .vi{width: 50%;}
+        .t1 .vi video{width:50%;height: 350px;display:block;margin:0 auto}
+        .t2 .txt{width: 90%;}
+        .t2 .txt strong{display:block;margin: 20px 0;font-size:30px}
+        .t2 .img{width: 10%;}
+        .t2 .img img{display:block;width:100%;}
+        footer{padding-left: 10px;color: #555; font-size: 15px;}
+        footer span{font-style: italic;}
+        footer span:first-child{color:green}
+        footer span:last-child{padding-right: 30px;}
+    </style>
+</head>
+<body>
+    <header id="header">
+        <h1>Blog</h1>
+        <hr>
+        <nav>
+            <a href="javascript:;">전체</a>
+            <a href="javascript:;">인테리어</a>
+            <a href="javascript:;">어학</a>
+            <a href="javascript:;">자동차</a>
+            <a href="javascript:;">만화</a>
+        </nav>
+        <hr>
+    </header>
+    <section>
+        <div class="t1">
+            <div class="img">
+                <img src="talent00.png" alt="">
+                <img src="talent00.png" alt="">
+                <img src="talent00.png" alt="">
+                <img src="talent00.png" alt="">
+                <img src="talent00.png" alt="">
+                <img src="talent00.png" alt="">
+                <img src="talent00.png" alt="">
+                <img src="talent00.png" alt="">
+            </div>
+            <div class="vi">
+                <video src="toy.mp4" controls></video>
+            </div>
+        </div>
+        <a href="#header">[위로 이동]</a>
+        <hr>
+        <div class="t2">
+            <div class="txt">
+                <p>id : 컴퓨터</p>
+                <strong>겨울 제주도 여행 천백고지 부터 우도맛집 총정리!</strong>
+                <span>안녕하세요!! 제주도 여행 정말 즐거웠습니다. 겨울 제주도 여행을 12월 쯤에 다녀왔습니다.!! 내년에 또 다녀 오겠습니다.!!!^^</span>
+            </div>
+            <div class="img">
+                <img src="talent00.png" alt="">
+            </div>
+        </div>
+        <a href="#header">[위로 이동]</a>
+        <hr>
+    </section>
+    <footer>
+        <span>CARE LAB</span><span>Copyright &copy; AllRights Reserved</span>1999 | 회사소개 | Tel : 777-7777
+    </footer>
+</body>
+</html>
